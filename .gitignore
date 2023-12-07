@@ -1,0 +1,46 @@
+# Ignore node_modules for both projects
+**/node_modules/
+
+# Ignore build artifacts for React Native app
+/ProyectoFinalUX/android/
+/ProyectoFinalUX/ios/
+/ProyectoFinalUX/build/
+/ProyectoFinalUX/temp/
+/ProyectoFinalUX/*.log
+/ProyectoFinalUX/*.jks
+
+# Ignore build artifacts for Server
+/Server/node_modules/
+/Server/build/
+/Server/dist/
+/Server/*.log
+
+# Ignore environment-specific files
+/FinalProjectUX/.env
+/Server/.env
+
+# Ignore any logs or temporary files
+*.log
+*.tmp
+*.temp
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore npm-debug.log files
+npm-debug.log*
+
+# Ignore yarn-error.log files
+yarn-error.log*
+
+# Windows-specific ignores
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
