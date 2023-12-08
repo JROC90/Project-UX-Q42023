@@ -3,14 +3,14 @@ const { Customer, Owner, Organization, BankAccount, Property, Rating, Room, Rese
 const appInstace = express();
 const port = 3001;
 
-appInstace.get('/', function (req, res) {
-  res.send('Hello World')
-})
-
 appInstace.listen(port,()=>{
   console.log("Server is running and listening on port",port);
 })
 
+// appInstace.get('/createUser', ())
+
+
+// Create Customer
 
 
 // function nameFunction (req,res){

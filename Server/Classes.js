@@ -116,10 +116,12 @@ class Rating {
    * @constructor
    * @param {number} idCustomer - The customer ID associated with the rating.
    * @param {number} stars - The number of stars given in the rating.
+   * @param {number} idProperty - The property ID associated with the rating.
    */
-  constructor(idCustomer, stars) {
+  constructor(idCustomer, stars, idProperty) {
     this.idCustomer = idCustomer;
     this.stars = stars;
+    this.idProperty = idProperty;
   }
 }
 
